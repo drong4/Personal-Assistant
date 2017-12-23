@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="lightGrey">#d1d1d1</color>
+    <color name="grey">#b7b7b7</color>
+
+    <color name="lightBlue">#7e94da</color>
+    <color name="blue">#4463c6</color>
+    <color name="darkBlue">#3550a7</color>
+</resources>

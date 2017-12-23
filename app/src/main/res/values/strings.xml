@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PersonalAssistant</string>
+
+    <string name="settings_label">Settings</string>
+
+    <string name="home_introduction">Hello.\n Press the button below \n or say \"hello assistant\" to begin.</string>
+    <string name="home_instructions">\"Send text to ...\" \n
+        \"What\'s the weather in ... (city)?\" \n
+        \n Say \"Cancel\" at any time to restart.</string>
+
+    <string name="open_weather_map_api_key">debb8948e1a3631eb7e036105a99c41c</string>
+
+    <string name="google_search_root">https://www.google.com/search?q=</string>
+
+    <!-- Strings related to Settings -->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_attentive_mode">Attentive Mode</string>
+    <string name="pref_summary_attentive_mode">Allow this app to wake up with your wake-up phrase,
+        even when your device is locked.
+    </string>
+    <string name="pref_key_attentive_mode">pref_attentiveMode</string>
+
+    <string name="pref_title_wake_up_phrase">Wake-up Phrase</string>
+    <string name="pref_summary_wake_up_phrase">Say this phrase to wake-up the assistant.</string>
+    <string name="pref_default_wake_up_phrase">Hello assistant</string>
+    <string name="pref_key_wake_up_phrase">pref_wakeUpPhrase</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_key_attentive_mode"
+        android:title="@string/pref_title_attentive_mode"
+        android:summary="@string/pref_summary_attentive_mode"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_wake_up_phrase"
+        android:summary="@string/pref_summary_wake_up_phrase"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_wake_up_phrase"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_wake_up_phrase" />
+</PreferenceScreen>
