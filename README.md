@@ -2,7 +2,7 @@
 I made this Android app for the final project of my programming studio class. This app is intended to be a much simpler version of an artificial intelligence personal assistant, like Siri or Alexa. The main purpose of making this app was for me to learn more about Android development and how AI personal assistants were implemented.
 
 ## Voice Commands
-The following summarizes the implemented voice commands for the application. For a more detailed description of the commands, see the manual test plan: .
+The following summarizes the implemented voice commands for the application. For a more detailed description of the commands, see the [Manual Test Plan](https://drive.google.com/open?id=1mXYgDXLGlzEj_Lmt5edS95gR8ad_3YFJ).
 
 ### Wake-up Phrase
 
@@ -33,3 +33,9 @@ Saying `cancel` at any point when listening prompt is up will make the app stop 
 
 ## Settings
 The user can customize the wake-up phrase in the `Settings` page. Although the user can set this to anything, it's important to note that it is recommended that the phrase be at least 3 syllables, as anything less than that will have many false positives.
+
+## Resources
+- [PocketSphinx](https://cmusphinx.github.io/wiki/tutorialandroid/)
+- [Google Calendar API](https://developers.google.com/google-apps/calendar/)
+- [Open Weather Map API](https://openweathermap.org/api)
+
